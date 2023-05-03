@@ -11,6 +11,5 @@ module.exports = {
     "scope-enum": [2, "always", ["FE", "BE"]],
     "subject-empty": [2, "never"],
     "subject-full-stop": [2, "never", "."],
-    "body-max-length": [1, "always", 600],
   },
 };
