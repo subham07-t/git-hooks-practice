@@ -6,19 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/subham07-t/naming-rule-set.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/subham07-t/naming-rule-set/issues"
   },
-  "homepage": "https://github.com/subham07-t/naming-rule-set#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "node ./path/to/validate-commit-msg.js"
+    }
+  },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-conventional": "^17.6.1",
     "husky": "^8.0.3"
   }
 }
