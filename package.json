@@ -1,15 +1,10 @@
 {
   "name": "naming-rule-set",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000n\u0000a\u0000m\u0000i\u0000n\u0000g\u0000-\u0000r\u0000u\u0000l\u0000e\u0000-\u0000s\u0000e\u0000t\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@subhamH:subham07-t/naming-rule-set.git"
   },
   "husky": {
     "hooks": {
