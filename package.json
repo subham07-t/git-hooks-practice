@@ -159,10 +159,19 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
-    "husky": "^8.0.3"
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3",
+    "inquirer": "^8.2.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "repository": {
     "type": "git",
