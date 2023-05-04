@@ -54,7 +54,7 @@ module.exports = {
       },
       scope: {
         description:
-          'What is the scope of this change (e.g. component or file name)',
+          'What is the scope of this change (e.g. Frontend or Backend)',
       },
       subject: {
         description: 'Write a short, imperative tense description of the change',
