@@ -11,15 +11,6 @@ module.exports = {
     "subject-full-stop": [2, "never", "."],
   },
   prompt: {
-    settings: {},
-    messages: {
-      skip: ':skip',
-      max: 'upper %d chars',
-      min: '%d chars at least',
-      emptyWarning: 'can not be empty',
-      upperLimitWarning: 'over limit',
-      lowerLimitWarning: 'below limit'
-    },
     questions: {
       type: {
         description: "Select the type of change that you're committing:",
